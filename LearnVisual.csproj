@@ -8,4 +8,25 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ConfessionFull.ttf" />
+    <None Remove="ConfessionRegular.ttf" />
+    <None Remove="Maria.ttf" />
+    <None Remove="SkyBackground1.jpg" />
+    <None Remove="ToThePoint.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ConfessionFull.ttf" />
+    <Resource Include="ConfessionRegular.ttf" />
+    <Resource Include="Maria.ttf" />
+    <Resource Include="ShortBaby.ttf" />
+    <Resource Include="SkyBackground1.jpg" />
+    <Resource Include="ToThePoint.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
 </Project>
